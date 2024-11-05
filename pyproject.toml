@@ -5,7 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "Group", email = "None"},
 ]
-dependencies = ["pyspark>=3.5.3", "ipykernel>=6.29.5"]
+dependencies = ["pyspark>=3.5.3", "ipykernel>=6.29.5", "tqdm>=4.66.6"]
 requires-python = "==3.13.*"
 readme = "README.md"
 license = {text = "MIT"}
