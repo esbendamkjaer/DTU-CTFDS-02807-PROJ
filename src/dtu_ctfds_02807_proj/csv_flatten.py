@@ -5,8 +5,8 @@ from tqdm import tqdm
 # Increase field size limit
 csv.field_size_limit(sys.maxsize)
 
-in_file: str = "ds/steam-games.csv"
-out_file: str = "ds/steam_games_flattened.csv"
+in_file: str = "data/games_may2024_cleaned.csv"
+out_file: str = "data/steam_games_flattened.csv"
 
 with open(in_file, "r", encoding="utf-8") as infile, open(out_file, "w", newline='', encoding="utf-8") as outfile:
     # Optional: get the total number of lines for tqdm
