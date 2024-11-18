@@ -10,6 +10,7 @@ def create_local_context() -> Tuple[SparkContext, SparkSession]:
         ("spark.master", "local[*]"),
         ("spark.sql.caseSensitive", False),
         ("spark.executor.memory", "8g"),
+        ("spark.driver.memory", "8g")
     ])
 
     spark: SparkSession = SparkSession.builder.config(conf=local_conf).getOrCreate()
