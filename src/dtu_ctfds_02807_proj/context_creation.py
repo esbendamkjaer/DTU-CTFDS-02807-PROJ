@@ -8,7 +8,7 @@ def create_local_context() -> Tuple[SparkContext, SparkSession]:
     local_conf = SparkConf().setAll([
         ("spark.app.name", 'local_spark_app'),
         ("spark.master", "local[*]"),
-        ("spark.driver.bindAddress", "0.0.0.0"),
+        # ("spark.driver.bindAddress", "0.0.0.0"),
         ("spark.sql.caseSensitive", False),
         ("spark.cores.max", 6),
         ("spark.executor.cores", 6),
