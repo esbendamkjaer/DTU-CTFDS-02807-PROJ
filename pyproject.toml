@@ -6,7 +6,7 @@ authors = [
     {name = "Group", email = "example@example.com"},
 ]
 dependencies = [
-    "pyspark>=3.5.3", 
+    "pyspark>=3.3.1", 
     "ipykernel>=6.29.5", 
     "tqdm>=4.66.6", 
     "matplotlib>=3.9.2", 
@@ -16,7 +16,7 @@ dependencies = [
     "numpy<2.0",
 ]
 
-requires-python = "==3.13.*"
+requires-python = "==3.10.*"
 readme = "README.md"
 license = {text = "MIT"}
 
