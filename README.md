@@ -18,4 +18,4 @@ Each notebook can be run independently, so long as the datasets reside at:
 - Games parquet: file:////work/ds/steam_games_parquet
 
 The parquet files can be downloaded at:
-- https://1drv.ms/f/s!Av3RfVE8_irIg_Y5rz4zF16iNjDuZw?e=JWD0zS
+- https://1drv.ms/f/s!Av3RfVE8_irIg_Y5muz1zTfGQSDDCQ?e=Gg9pBH
